@@ -1,0 +1,96 @@
+[
+  {
+    "run_id": "6398674e687e4313955d0d0a97aa8df6",
+    "version": "v1",
+    "trained_at_utc": "2026-11-14T11:43:24.860992+00:00",
+    "seed": 42,
+    "sklearn_version": "1.9.1",
+    "model_file": "churn_model_6398674e687e4313955d0d0a97aa8df6.joblib",
+    "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+    "data_sha256": "39643e353182e0002bdd72f17b1637badd58fbdead8062a766d1baada2cebe5d",
+    "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+    "features": [
+      "tenure_months",
+      "num_complaints",
+      "avg_session_minutes",
+      "plan_type",
+      "region"
+    ],
+    "target": "churn",
+    "threshold": 0.31,
+    "threshold_selected_on": "validation",
+    "validation_f1": 0.7215686274509804,
+    "baseline_class": 1,
+    "split_rows": {
+      "train": 720,
+      "validation": 180,
+      "test": 300
+    },
+    "registered_at_utc": "2026-11-14T11:48:25.994581+00:00",
+    "metrics": {
+      "run_id": "6398674e687e4313955d0d0a97aa8df6",
+      "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+      "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+      "candidate_metadata_sha256": "e87f6270d4cd7ad5c061ef542f188cd16132c2c75bab7673d7e638359f926275",
+      "evaluated_at_utc": "2026-11-14T11:47:25.367570+00:00",
+      "test_rows": 300,
+      "threshold": 0.31,
+      "accuracy": 0.5933333333333334,
+      "precision": 0.5736434108527132,
+      "recall": 0.925,
+      "f1": 0.7081339712918661,
+      "f1_threshold_05": 0.6790123456790124,
+      "baseline_class": 1,
+      "baseline_f1": 0.6956521739130435
+    },
+    "gate_f1": 0.7,
+    "passed_gate": true
+  },
+  {
+    "run_id": "b5fdb73530364f579b3794d8d5a3bcdc",
+    "version": "v2",
+    "trained_at_utc": "2026-11-14T12:04:46.859789+00:00",
+    "seed": 42,
+    "sklearn_version": "1.9.1",
+    "model_file": "churn_model_b5fdb73530364f579b3794d8d5a3bcdc.joblib",
+    "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+    "data_sha256": "39643e353182e0002bdd72f17b1637badd58fbdead8062a766d1baada2cebe5d",
+    "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+    "features": [
+      "tenure_months",
+      "num_complaints",
+      "avg_session_minutes",
+      "plan_type",
+      "region"
+    ],
+    "target": "churn",
+    "threshold": 0.31,
+    "threshold_selected_on": "validation",
+    "validation_f1": 0.7215686274509804,
+    "baseline_class": 1,
+    "split_rows": {
+      "train": 720,
+      "validation": 180,
+      "test": 300
+    },
+    "registered_at_utc": "2026-11-14T12:04:59.376758+00:00",
+    "metrics": {
+      "run_id": "b5fdb73530364f579b3794d8d5a3bcdc",
+      "model_sha256": "3d37480048e2e951d6fa2900882527e126bc4ee9a8fdc53e55b81f2db700071c",
+      "test_sha256": "06e2707b56e11612d4131c81c96b34b5b63121e75b31bed6cc17a58753d7fc02",
+      "candidate_metadata_sha256": "e37cdff1096b63489377a56ef241a08e691bc70c9b0a4a1da3ba1385c37463eb",
+      "evaluated_at_utc": "2026-11-14T12:04:54.084019+00:00",
+      "test_rows": 300,
+      "threshold": 0.31,
+      "accuracy": 0.5933333333333334,
+      "precision": 0.5736434108527132,
+      "recall": 0.925,
+      "f1": 0.7081339712918661,
+      "f1_threshold_05": 0.6790123456790124,
+      "baseline_class": 1,
+      "baseline_f1": 0.6956521739130435
+    },
+    "gate_f1": 0.7,
+    "passed_gate": true
+  }
+]
